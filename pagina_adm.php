@@ -43,8 +43,6 @@
     <hr>
     <a href="registrar_universidad.php">Registrar universidad</a>
     <hr>
-    <a href="registrar_visita.php">Registrar visita</a>
-    <hr>
     <a href="cerrar_sesion.php">cerrar_sesion</a>
 <body>
 </html>

@@ -62,7 +62,7 @@
 
             $consulta_dptos = mysqli_query($conexion, $query_dptos) or trigger_error("Error en la consulta MySQL: ".mysqli_error($conexion));
 
-            echo "<select name = 'colegio' required/>";
+            echo "<select name = 'id_colegio' required/>";
             echo "<option value = '0'>Selecione un colegio </option>";
             while($row = mysqli_fetch_array($consulta_dptos))
             {
@@ -87,7 +87,7 @@
 
             $consulta_dptos = mysqli_query($conexion, $query_dptos) or trigger_error("Error en la consulta MySQL: ".mysqli_error($conexion));
 
-            echo "<select name = 'ruta' required/>";
+            echo "<select name = 'id_ruta' required/>";
             echo "<option value = '0'>Selecione una ruta </option>";
             while($row = mysqli_fetch_array($consulta_dptos))
             {
@@ -99,6 +99,7 @@
 
         <br><br>
         <button type="submit">Registrar</button>
+        <button onclick="history.back()">Volver</button>
     </form>
 </body>
 </html>

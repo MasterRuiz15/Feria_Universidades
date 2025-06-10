@@ -96,6 +96,7 @@
 
         <br><br>
         <button type="submit">Registrar</button>
+        <button onclick="history.back()">Volver</button>
     </form>
 </body>
 </html>

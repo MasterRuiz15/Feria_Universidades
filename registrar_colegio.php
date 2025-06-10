@@ -48,6 +48,7 @@
         <input type="text" name="rector_colegio" id="" required>
         <br><br>
         <button type="submit">Registrar</button>
+        <button onclick="history.back()">Volver</button>
     </form>
 </body>
 </html>
