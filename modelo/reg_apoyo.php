@@ -9,7 +9,7 @@ if (isset($_SESSION['username'])) {
     $password_apo = $_POST['password_apoyo'];
     $id_uni = $_POST['id_universidad'];
 
-    // Asegúrate de que el archivo ha sido subido
+    /
     if (isset($_FILES['foto_apoyo']) && $_FILES['foto_apoyo']['error'] === UPLOAD_ERR_OK) {
         $foto_binario = addslashes(file_get_contents($_FILES['foto_apoyo']['tmp_name']));
 
