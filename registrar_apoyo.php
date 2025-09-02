@@ -21,13 +21,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar apoyo</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Registrar apoyo</h1>
     <?php
         echo 'Usuario: '.$nombre_usuario;
     ?>
-    <!--Formulario de registro de un apoyo-->
+    
     <form action="modelo/reg_apoyo.php" method="post" enctype="multipart/form-data">
         <h2>Apoyo</h2>
         <label for="">Código:</label> 

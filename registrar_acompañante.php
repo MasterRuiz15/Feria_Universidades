@@ -26,7 +26,7 @@
     <?php
         echo 'Usuario: '.$nombre_usuario;
     ?>
-    <!--Formulario de registro de un acompañante-->
+    
     <form action="modelo/reg_acompañante.php" method = "post">
         <h2>Acompañante</h2>
         <label for="">Código:</label> 

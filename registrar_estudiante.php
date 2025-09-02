@@ -21,13 +21,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registrar docente</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <h1>Registrar estudiante</h1>
     <?php
         echo 'Usuario: '.$nombre_usuario;
     ?>
-    <!--Formulario de registro de un apoyo-->
+    
     <form action="modelo/reg_estudiante.php" method = "post">
         <h2>Estudiante</h2>
         <label for="">Código:</label> 

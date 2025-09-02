@@ -1,33 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagina Feria De Universidades</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feria Universitaria - Colegio San José de Guanentá</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-      <h1>Pagina Feria De Universidades</h1>    
-      <h2>Ingresar como:</h2>  
 
-<!--Formulario de inicio de sesion -->
+  
+  <header class="header">
+    <h1>🎓Feria de Universidades🎓</h1>
+    <h2>Colegio San José de Guanentá</h2>
+  </header>
 
-<DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   
+  
+  <section class="logo-section">
+    <img src="img/logo.jpg" alt="Logo de la Feria Universitaria">
+  </section>
 
-   
-    
-    <hr>
-    <a href="loguearse_adm.php">Administrador</a>
-    <hr>
-    <a href="registrar_departamento.php">Delegado</a>
-    <hr>
-    <a href="registrar_apoyo.php">Apoyo</a>
-    <hr>
-    <a href="registrar_guia.php">Guia</a>
+  
+  <section class="info">
+    <p><b>Bienvenidos a la Feria de Universidades organizada por el Colegio San José de Guanentá en San Gil.</b></p>
+    <p><b>Este evento tiene como objetivo orientar a los estudiantes de grado 11 en su vocación profesional.</b></p>
+    <p><b>Contaremos con la participación de universidades, instituciones técnicas y tecnológicas que darán a conocer su oferta académica.</b></p>
+  </section>
+
+  
+  <section class="buttons">
+    <a href="iniciar_sesion.php" class="btn">🔑 Iniciar Sesión</a>
+  </section>
+
+  
+  <footer class="footer">
+    <p>&copy; 2025 Feria Universitaria - Colegio San José de Guanentá</p>
+  </footer>
 
 </body>
 </html>
+
+
+
+
+
+
+  
+  
+
+  
+ 
+
+
